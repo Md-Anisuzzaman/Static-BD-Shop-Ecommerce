@@ -22,18 +22,22 @@ nav {
 nav .logo {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     color: rgb(164, 39, 39);
-    padding-bottom: 10px;
 }
 
 nav .logo img {
     width: 60px;
     margin-right: 10px;
     object-fit: cover;
-
 }
+
+nav .logo span{
+    margin-top: 7px;
+}
+
+
 
 nav ul .nav-link {
     display: inline-block;
@@ -41,7 +45,7 @@ nav ul .nav-link {
     text-decoration: none;
     font-weight: 500;
     color: rgb(26, 23, 23);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 ul {
