@@ -14,9 +14,11 @@ const Footer = () => {
           <li >Partnar Ship</li>
           <li >Supports</li>
           <li>Privacy & policy</li>
+          <div className='icon__copyright'>
+            <h5><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram"></i> <i className="fab fa-linkedin"></i> <i className="fab fa-twitter-square"></i></h5>
+            <small>&copy; Copyright 2022 BD Shopping</small>
+          </div>
         </ul>
-        <h5><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram"></i> <i className="fab fa-linkedin"></i> <i className="fab fa-twitter-square"></i></h5>
-        <small>&copy; Copyright 2022 BD Shopping</small>
       </div>
 
     </div>
