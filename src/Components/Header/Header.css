@@ -45,7 +45,7 @@ nav ul .nav-link {
     text-decoration: none;
     font-weight: 500;
     color: rgb(26, 23, 23);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 ul {
@@ -55,13 +55,13 @@ ul {
 nav ul button {
     font-weight: 500;
     color: rgb(26, 23, 23);
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 8px;
     margin-left: 10px;
 }
 
 
-@media (max-width:768px){
+@media (min-width: 321px) and (max-width: 768px){
 
     .logo {
         display: flex;
@@ -84,6 +84,13 @@ nav ul button {
     }
     nav ul button {
      text-align: left;
+    }
+    .footer__title{
+        text-align: left;
+        margin-left: 40px;
+    }
+    .icon__copyright{
+        margin-left: 10px;
     }
     
 }
@@ -109,4 +116,30 @@ nav ul button {
     nav ul button {
         text-align: left;
        }
+} 
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo {
+        margin-right: 20px;
+    }
+    .nav-body {
+        flex-direction: column;
+    }
+    nav ul .nav-link {
+        display:block;
+        text-align: left;
+    }
+    nav ul button {
+        text-align: right;
+    }
+    .about__content{
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 30px;
+    }
+    .contact-box{
+         flex-direction: column;
+    }
 }
